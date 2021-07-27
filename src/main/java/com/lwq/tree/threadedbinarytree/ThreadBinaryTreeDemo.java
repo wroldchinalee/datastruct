@@ -34,5 +34,7 @@ public class ThreadBinaryTreeDemo {
 
         RoleNode beforeHeroNode10 = node4.getLeftChild();
         System.out.println(beforeHeroNode10);
+        System.out.println("遍历线索化二叉树");
+        binaryTree.threadedList();
     }
 }
